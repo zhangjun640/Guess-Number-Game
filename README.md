@@ -1,3 +1,4 @@
+# README.md
 
 # Guess Number Game (猜数字)
 
@@ -7,24 +8,24 @@ A classic **Bulls and Cows (nA nB)** game implemented in **Java Swing**, featuri
 
 ---
 
-##  Features
+## 🚀 Features
 
-###  Bulls and Cows (nAnB)
+### 🎯 Bulls and Cows (nAnB)
 - 系统生成 **4位不重复数字**
 - **nA**: 数字 + 位置都正确  
 - **nB**: 数字正确但位置错误  
 
-###  User System
+### 👤 User System
 - 用户 **注册 / 登录**
 - 用户信息写入 `Message.txt`（通过 `~` 分隔）
 - 持久化本地文件保存账号密码
 
-###  Score & Ranking
+### 🏆 Score & Ranking
 - 每次猜对（4A）分数 +1
 - 排行榜界面展示所有用户得分
 - 排行榜持久化文件：`Rank.txt`
 
-###  Custom UI
+### 🎨 Custom UI
 自定义 Swing 组件：
 - `CustomButton`
 - `CustomTextField`
@@ -33,13 +34,13 @@ A classic **Bulls and Cows (nA nB)** game implemented in **Java Swing**, featuri
 自定义背景图：  
 `Start.java`、`Game.java` 内使用背景图片作为界面元素。
 
-###  Multi-window Management
+### 🪟 Multi-window Management
 - `run.java`: 程序启动器 + 窗口管理  
 - `ActMenu.java`: 游戏中快速跳转菜单（新用户 / 排行榜 / 新数字）
 
 ---
 
-##  Tech Stack
+## 🧰 Tech Stack
 
 - **Language:** Java  
 - **UI:** Java Swing  
@@ -49,7 +50,7 @@ A classic **Bulls and Cows (nA nB)** game implemented in **Java Swing**, featuri
 
 ---
 
-##  Installation & Run
+## 📦 Installation & Run
 
 ### 1. Install Java
 需要 JDK 8 或更高版本。
@@ -75,14 +76,14 @@ createBackgroundPanel("image.png")
 
 ---
 
-##  Build Instructions
+## 🔧 Build Instructions
 
-###  使用 IntelliJ IDEA
+### ▶️ 使用 IntelliJ IDEA
 - 直接打开项目
 - Build Project
 - 运行 `run.java`
 
-###  使用命令行
+### ▶️ 使用命令行
 
 ```bash
 # 创建输出目录
@@ -156,6 +157,12 @@ Pull requests are welcome!
 If you encounter a bug or want a new feature, feel free to open an issue.
 
 ```
+
+如果你想，我可以进一步：
+
+✔ 自动生成徽章（stars、license、java version）  
+✔ 生成更专业的英文版 README  
+✔ 为项目自动设计目录、Logo、横幅（Banner）  
 
 随时告诉我！
 ```
