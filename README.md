@@ -1,4 +1,4 @@
-```bash
+
 # README.md
 
 # Guess Number Game (猜数字)
