@@ -1,6 +1,4 @@
 
-# README.md
-
 # Guess Number Game (猜数字)
 
 A classic **Bulls and Cows (nA nB)** game implemented in **Java Swing**, featuring user accounts, score ranking, custom UI components, and local data persistence.
